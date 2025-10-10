@@ -1,0 +1,19 @@
+.gallery-tittle {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 24px;
+}
+
+.gallery-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
