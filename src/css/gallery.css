@@ -1,12 +1,14 @@
+/*mobile-gallery*/
+
 .gallery-tittle {
-  font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
   color: #030a06;
-  margin-bottom: 24px;
+  font-family: 'Comfortaa', sans-serif;
+  margin-bottom: 16px;
 }
 
 .gallery-text {
@@ -16,4 +18,9 @@
   text-align: center;
   color: #030a06;
   margin-bottom: 32px;
+}
+.galerry-images {
+  border-radius: 32px;
+  width: 288px;
+  height: 288px;
 }
