@@ -3,7 +3,10 @@
 .container {
 }
 .header__inner {
+  margin-top: 16px;
+  margin-right: 16px;
 }
+
 .header__title {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
@@ -65,4 +68,9 @@
 .header__picture {
 }
 .header__image {
+}
+
+/* https://github.com/Anastasiia-tyk/ecotote-project-08/pull/3 */
+
+@media only screen and (min-width: 768px) {
 }
