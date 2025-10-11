@@ -3,8 +3,14 @@
 .container {
 }
 .hero__inner {
-  margin-top: 16px;
-  margin-right: 16px;
+  /* padding-right: 16px;
+  padding-left: 16px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .hero__title {
@@ -66,6 +72,10 @@
   margin-bottom: 64px;
 }
 .hero__picture {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  max-width: 100%;
 }
 .hero__image {
 }
