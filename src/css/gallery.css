@@ -19,8 +19,38 @@
   color: #030a06;
   margin-bottom: 32px;
 }
-.galerry-images {
+
+.gallery-images {
   border-radius: 32px;
   width: 288px;
   height: 288px;
+}
+
+@media (max-width: 767px) {
+  .gallery-item {
+    display: grid;
+    gap: 16px;
+  }
+
+  .gallery-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'YoungWoman'
+      'YoungMan'
+      'Person-Park'
+      'EcoTote-BagChair';
+  }
+
+  .gellery-list:nth-child(1) {
+    grid-area: EcoTote-BagChair;
+  }
+  .gellery-list:nth-child(2) {
+    grid-area: YoungMan;
+  }
+  .gellery-list:nth-child(3) {
+    grid-area: Person-Park;
+  }
+  .gellery-list:nth-child(4) {
+    grid-area: YoungWoman;
+  }
 }
