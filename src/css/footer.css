@@ -65,3 +65,7 @@ container-footer {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+
+.footer-bottom {
+  color: rgba(3, 10, 6, 1);
+}
