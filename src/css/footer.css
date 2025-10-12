@@ -8,7 +8,6 @@
   gap: 48px;
   color: rgba(3, 10, 6, 1);
   width: 100%;
-  max-width: 320px;
   margin-inline: auto;
   align-self: center;
 }
@@ -18,6 +17,7 @@ container-footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+  max-width: 320px;
 }
 .footer-top {
   gap: 48px;
@@ -43,15 +43,15 @@ container-footer {
 }
 
 .footer-socials-link {
-  margin-bottom: b48px;
+  margin-bottom: 48px;
   margin-top: 48px;
 }
+
 .footer-socials-list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  flex-direction: row;
   gap: 12px;
 }
 
@@ -75,11 +75,77 @@ container-footer {
   gap: 16px;
   margin: 0 0 16px;
 }
-
+.footer-email,
 .footer-tel {
   color: rgba(3, 10, 6, 1);
 }
 
-.footer-email {
-  color: rgba(3, 10, 6, 1);
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container-footer {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer {
+    padding: 64px 32px;
+  }
+  .footer-logo {
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  .footer-top-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .footer-socials-link {
+    margin-top: 32px;
+  }
+
+  .footer-address {
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+    width: 704px;
+    margin: 0;
+  }
+  .footer-bottom {
+    padding-top: 16px;
+  }
+  .footer-address-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap: 32px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1140px) {
+  .container-footer {
+    max-width: 1140px;
+  }
+  .footer {
+    padding: 80px 64px;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-top-list {
+    display: flex;
+  }
 }
