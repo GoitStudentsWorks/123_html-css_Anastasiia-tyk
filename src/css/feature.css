@@ -1,0 +1,22 @@
+.carning {
+  width: 100%;
+  background-image: url('/img/feature/feature_mob.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 348px;
+  padding: 16px 0 64px 0;
+  /* position: relative;
+  z-index: 1; */
+}
+
+.section__inner {
+  display: flex;
+  flex-direction: column;
+}
+.carning_text_above {
+}
+.carning_title {
+}
+.carning_text_below {
+}
