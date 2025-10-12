@@ -1,9 +1,5 @@
 /* ================ Advantages ============== */
 /* =========== Mobile Phone =========== */
-.container {
-  max-width: 320px;
-}
-
 .advantages {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -55,7 +51,6 @@
   overflow: hidden;
   border-radius: 32px;
   height: 198px;
-  transform: translateZ(0);
 }
 
 .advantage-card-cover img {
