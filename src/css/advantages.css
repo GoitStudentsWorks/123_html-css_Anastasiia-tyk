@@ -1,5 +1,8 @@
 /* ================ Advantages ============== */
 /* =========== Mobile Phone =========== */
+.container {
+  max-width: 320px;
+}
 
 .advantages {
   padding-top: 32px;
@@ -28,6 +31,9 @@
 }
 
 .advantage-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
