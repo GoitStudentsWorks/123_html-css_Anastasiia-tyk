@@ -1,0 +1,58 @@
+/*mobile-gallery*/
+
+.gallery-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  font-family: 'Comfortaa', sans-serif;
+  margin-bottom: 16px;
+}
+
+.gallery-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+
+.gallery-images {
+  border-radius: 32px;
+  width: 288px;
+  height: 288px;
+}
+
+@media (max-width: 767px) {
+  .gallery-item {
+    display: grid;
+    gap: 16px;
+  }
+
+  .gallery-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'YoungWoman'
+      'YoungMan'
+      'Person-Park'
+      'EcoTote-BagChair';
+  }
+
+  .gellery-list:nth-child(1) {
+    grid-area: EcoTote-BagChair;
+  }
+  .gellery-list:nth-child(2) {
+    grid-area: YoungMan;
+  }
+  .gellery-list:nth-child(3) {
+    grid-area: Person-Park;
+  }
+  .gellery-list:nth-child(4) {
+    grid-area: YoungWoman;
+  }
+}
+
+/*tab-gallery*/
