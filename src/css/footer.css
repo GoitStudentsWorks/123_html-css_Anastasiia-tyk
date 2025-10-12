@@ -55,6 +55,11 @@ container-footer {
   gap: 12px;
 }
 
+.footer-bottom {
+  text-align: center;
+  position: relative;
+}
+
 .footer-address {
   border-top: 1px solid rgba(0, 0, 0, 0.18);
   margin-top: 48px;
@@ -68,8 +73,13 @@ container-footer {
 
 .footer-address-item {
   gap: 16px;
+  margin: 0 0 16px;
 }
 
 .footer-tel {
+  color: rgba(3, 10, 6, 1);
+}
+
+.footer-email {
   color: rgba(3, 10, 6, 1);
 }
