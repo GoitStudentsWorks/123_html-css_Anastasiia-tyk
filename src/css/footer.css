@@ -66,6 +66,10 @@ container-footer {
   margin-bottom: 24px;
 }
 
-.footer-bottom {
+.footer-address-item {
+  gap: 16px;
+}
+
+.footer-tel {
   color: rgba(3, 10, 6, 1);
 }
