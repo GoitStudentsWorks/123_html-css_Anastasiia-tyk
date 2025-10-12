@@ -148,15 +148,16 @@
   .hero__right {
     /* flex-basis: 640px; */
     flex: 1 1 calc((100% - 32px) / 2);
-    /* gap: 32px; */
+    gap: 32px;
   }
 
   .hero__button {
     min-width: 140px;
-    margin-bottom: 81px;
+    /* margin-bottom: 81px; */
   }
 
   .hero__image-wrapper {
+    /* margin: 0; */
   }
 
   .hero__image {
