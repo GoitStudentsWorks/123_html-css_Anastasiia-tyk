@@ -1,1 +1,39 @@
-<section>EcoTote - стиль</section>
+<section class="hero__not__nav container">
+  <div class="hero__inner">
+    <h1 class="hero__title">EcoTote — Стиль, що не шкодить планеті</h1>
+
+    <div class="hero__right">
+      <p class="hero__description">
+        Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+        відповідальність разом з EcoTote.
+      </p>
+      <button
+        type="button"
+        class="hero__button"
+        aria-label="Кнопка для покупки"
+      >
+        Купити зараз
+      </button>
+    </div>
+
+    <div class="hero__image-wrapper">
+      <picture class="hero__picture">
+        <source
+          srcset="/img/hero/hero.jpg 1x, /img/hero/hero@2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/img/hero/hero_mob.jpg 1x, /img/hero/hero_mob_2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/img/hero/hero_mob.jpg"
+          alt="Hero image"
+          class="hero__image"
+          width="288"
+          height="285"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
