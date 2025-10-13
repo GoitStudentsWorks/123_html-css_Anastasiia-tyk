@@ -1,0 +1,171 @@
+
+/* === Заголовок секції === */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 2rem;
+    padding: 32px 16px;;
+}
+
+/* === Сітка з картками === */
+/*.bags-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+/* === Картка товару === */
+/* .bag-item {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    gap: 16px;
+} */
+ .bags-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+ }
+.bag-item{
+    width: 288px;
+}
+.bag-text{
+    width: 288px;
+    height: 113px;
+}
+.bag-bottom-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === Зображення === */
+.bag-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+    margin-bottom: 10px;
+}
+
+/* === Контент всередині картки === */
+.bag-item-content {
+    padding: 1rem;
+}
+
+/* === Назва === */
+.bag-name {
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: center;
+}
+
+/* === Опис === */
+.description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: center;
+}
+
+/* === Ціна === */
+.price {
+    color: var(--Color-Scheme-1-Text, #030A06);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+/* === Кнопка === */
+.item-button {
+    background-color: transparent;
+    display: flex;
+    width: 288px;
+    height: 40px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 6px;
+    }
+
+.item-button:hover {
+    background-color: #1366d6;
+}
+
+.item-button:focus {
+    outline: 2px solid #1366d6;
+    outline-offset: 2px;
+}
+
+.item-button:active {
+    background-color: #0d47a1;
+    transform: scale(0.98);
+}
+
+
+/* === Адаптивність === */
+@media (min-width: 768px) {
+    /* .bags-list {
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    } */
+     .bag-item{
+        width: 340px;
+        
+     }
+     .bags-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:48px;
+        column-gap: 24px;
+        
+     }
+}
+
+@media (min-width: 1440px) {
+    /* .bags-list {
+        gap: 2.5rem;
+        grid-template-columns: repeat(4, 1fr);
+} */
+    .container {
+        max-width: 1440px;
+ }
+    .bags-list{
+        gap: 64px;
+        column-gap: 24px;
+    }
+    .bag-item{
+        width: 310px;
+    }
+    
+         /* === Заголовок секції (ПК-версія) === */
+    .section-title {
+        font-family: var(--second-family);
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+    }
+   
+}
