@@ -1,8 +1,8 @@
 .carning {
   width: 100%;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.5),
-      rgba(46, 47, 66, 0.5)
+      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.4)
     ),
     url('../img/feature/feature.jpg');
   background-size: cover;
@@ -83,9 +83,9 @@
   }
 }
 
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1440px) {
   .carning {
-    max-width: 1140px;
+    max-width: 1440px;
     min-height: 462px;
   }
 
