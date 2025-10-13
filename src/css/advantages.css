@@ -102,11 +102,11 @@
   }
 
   .advantage-card {
-    flex: 1 1 calc((100% - 24px) / 2);
-    max-width: calc((100% - 24px) / 2);
+    flex: 0 0 340px;
+    max-width: 340px;
+    min-width: 340px;
     display: flex;
     flex-direction: column;
-
     margin: 0;
   }
 
@@ -115,8 +115,8 @@
   }
 
   .advantage-card:nth-child(3) {
-    flex-basis: 100%;
-    max-width: 100%;
+    flex-basis: 704px;
+    max-width: 704px;
   }
 
   .advantage-card:not(:nth-child(3)) .advantage-card-cover {
