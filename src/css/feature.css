@@ -1,10 +1,10 @@
 .carning {
   width: 100%;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
-      rgba(46, 47, 66, 0.4)
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
     ),
-    url('../img/feature/feature-mob.jpg');
+    url('../img/feature/feature.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,12 +15,12 @@
   margin: 0 auto;
 }
 
-@media screen and (min-resolution: 2x),
+/* @media screen and (min-resolution: 2x),
   screen and (-webkit-min-device-pixel-ratio: 2) {
   .carning {
-    background-image: url('/img/feature/feature-mob-2x.jpg');
+    background-image: url('/img/feature/feature@2x.jpg');
   }
-}
+} */
 
 .section__inner {
   display: flex;
@@ -61,20 +61,8 @@
 
 @media only screen and (min-width: 768px) {
   .carning {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.4),
-        rgba(46, 47, 66, 0.4)
-      ),
-      url('../img/feature/feature-tab.jpg');
     max-width: 768px;
-    max-height: 325px;
-  }
-
-  @media screen and (min-resolution: 2x),
-    screen and (-webkit-min-device-pixel-ratio: 2) {
-    .carning {
-      background-image: url('/img/feature/feature-tab-2x.jpg');
-    }
+    min-height: 325px;
   }
 
   .section__inner {
@@ -97,20 +85,8 @@
 
 @media only screen and (min-width: 1440px) {
   .carning {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.4),
-        rgba(46, 47, 66, 0.4)
-      ),
-      url('../img/feature/feature.jpg');
     max-width: 1440px;
     min-height: 462px;
-  }
-
-  @media screen and (min-resolution: 2x),
-    screen and (-webkit-min-device-pixel-ratio: 2) {
-    .carning {
-      background-image: url('/img/feature/feature-2x.jpg');
-    }
   }
 
   .section__inner {
