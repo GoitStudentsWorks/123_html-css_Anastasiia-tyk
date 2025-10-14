@@ -63,6 +63,7 @@ line-height: 160%;
         flex-wrap: wrap;
         gap: 32px;
         column-gap: 24px;
+        align-items: start;
     }
     .reviews-list-item {
         max-width: 340px;
