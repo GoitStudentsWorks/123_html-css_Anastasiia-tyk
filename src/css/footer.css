@@ -174,12 +174,18 @@
   .footer-socials-link {
     margin: 0;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     flex-direction: row;
     gap: 12px;
+    width: 100%;
+    height: 100%;
   }
 
+  .footer-socials-item {
+    display: block;
+    align-items: center;
+  }
   .footer-address {
     border-top: 1px solid rgba(0, 0, 0, 0.18);
     width: 1312px;
