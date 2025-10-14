@@ -71,10 +71,40 @@
 .footer-address-item {
   gap: 16px;
   margin: 0 0 16px;
+  font-style: normal;
 }
 .footer-email,
 .footer-tel {
   color: rgba(3, 10, 6, 1);
+}
+
+.footer-nav-link,
+.footer-tel,
+.footer-email {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: #030a06;
+  transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.footer-nav-link:focus-visible,
+.footer-nav-link:focus-visible,
+.footer-tel:hover,
+.footer-tel:focus-visible,
+.footer-email:hover,
+.footer-email:focus-visible {
+  border-bottom-color: currentColor;
+}
+
+.header-logo-link:hover,
+.header-logo-link:focus-visible,
+.menu-logo-link:hover,
+.menu-logo-link:focus-visible {
+  background-color: #030a06;
+}
+
+.footer-logo-link:hover .footer-logo,
+.footer-logo-link:focus-visible .footer-logo {
+  filter: brightness(0) invert(1);
 }
 
 /* Styles for Tablet devices */
@@ -96,12 +126,8 @@
   }
 
   .footer-top-list {
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
-    flex-direction: row;
-    gap: 32px;
   }
 
   .footer-socials-link {
@@ -179,13 +205,8 @@
     justify-content: space-between;
     flex-direction: row;
     gap: 12px;
-
     margin-left: auto;
   }
-
-  /* .footer-socials-item {
-    display: flex;
-  } */
 
   .footer-socials-icon {
     display: block;
@@ -194,7 +215,6 @@
   }
 
   .footer-address {
-    border-top: 1px solid rgba(0, 0, 0, 0.18);
     width: 1312px;
     margin: 0;
   }
