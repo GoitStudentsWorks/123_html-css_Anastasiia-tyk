@@ -24,6 +24,7 @@
   border-radius: 32px;
   width: 288px;
   height: 288px;
+  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
@@ -41,18 +42,124 @@
       'EcoTote-BagChair';
   }
 
-  .gellery-list:nth-child(1) {
+  .gallery-list:nth-child(1) {
     grid-area: EcoTote-BagChair;
   }
-  .gellery-list:nth-child(2) {
+  .gallery-list:nth-child(2) {
     grid-area: YoungMan;
   }
-  .gellery-list:nth-child(3) {
+  .gallery-list:nth-child(3) {
     grid-area: Person-Park;
   }
-  .gellery-list:nth-child(4) {
+  .gallery-list:nth-child(4) {
     grid-area: YoungWoman;
   }
 }
 
 /*tab-gallery*/
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .gallery-item {
+    display: grid;
+    grid-template-columns: 338px 340px;
+    grid-template-rows: 338px 340px 340px;
+    gap: 24px;
+    height: 1066px;
+    justify-content: center;
+  }
+
+  .youngwoman-item {
+    grid-column: 1;
+    grid-row: 1;
+    height: 338px;
+  }
+
+  .youngman-item {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    height: 702px;
+  }
+
+  .personpark-item {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    height: 702px;
+  }
+
+  .ecobag-item {
+    grid-column: 2;
+    grid-row: 3;
+    height: 340px;
+  }
+
+  .gallery-images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 32px;
+  }
+
+  .gallery-tittle {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+    margin-bottom: 24px;
+  }
+}
+
+/*decktop-gallery*/
+
+@media (min-width: 1158px) {
+  .gallery-item {
+    display: grid;
+    grid-template-columns: 421px 421px 421px;
+    grid-template-rows: 421px 421px;
+    height: 866px;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .youngwoman-item {
+    grid-column: 1;
+    grid-row: 1;
+    height: 421px;
+  }
+
+  .youngman-item {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    height: 866px;
+  }
+
+  .personpark-item {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    height: 866px;
+  }
+
+  .ecobag-item {
+    grid-column: 1;
+    grid-row: 2;
+    height: 421px;
+    margin-top: 0;
+  }
+
+  .gallery-images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 32px;
+  }
+
+  .gallery-tittle {
+    font-family: 'Comfortaa', sans-serif;
+
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+  }
+}
