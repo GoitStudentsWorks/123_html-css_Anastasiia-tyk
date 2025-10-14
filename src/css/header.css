@@ -95,7 +95,7 @@
   }
 }
 
-/* Styles for Desktop devices */
+/* /* Styles for Desktop devices */
 @media only screen and (min-width: 1140px) {
   .menu-open-button {
     display: none;
@@ -125,6 +125,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
+    justify-content: space-between;
   }
 
   .header-logo-link {
@@ -133,6 +134,11 @@
     flex: 0 0 auto;
     width: max-content;
     line-height: 0;
+  }
+
+  .header-logo {
+    display: block;
+    /*     margin-right: 175px; */
   }
   .header-logo-link img {
     display: block;
