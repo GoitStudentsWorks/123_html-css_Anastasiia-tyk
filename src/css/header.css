@@ -153,7 +153,6 @@ menu-address-link:focus-visible,
   }
 
   .header {
-    background: rgba(117, 210, 129, 1);
     padding: 0;
     width: 100%;
   }
@@ -163,17 +162,10 @@ menu-address-link:focus-visible,
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
     flex-wrap: nowrap;
     padding: 14px 64px;
     flex-wrap: nowrap;
     gap: 0;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    justify-content: space-between;
   }
 
   .header-logo-link {
