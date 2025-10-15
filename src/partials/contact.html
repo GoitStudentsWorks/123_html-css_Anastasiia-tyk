@@ -1,1 +1,75 @@
-<section>Зв'яжіться з нами</section>
+<section class="contact-section">
+  <div class="cїcontainer">
+    <div class="contact-form">
+      <h2 class="contact-title-form">Залишились питання? Зв'яжіться з нами!</h2>
+      <p class="contact-text-form">Ми тут, щоб допомогти!</p>
+      <form class="contacts-form" action="#" method="post" novalidate>
+        <label class="contact-label-input" for="name">Ім’я</label>
+        <input
+          class="contact-form-input"
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="5"
+          maxlength="64"
+          placeholder="Іван"
+        />
+
+        <label class="contact-label-input" for="email">Електронна пошта</label>
+        <input
+          class="contact-form-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          placeholder="hello@ecotote.com"
+        />
+
+        <label class="contact-label-textarea" for="message">Повідомлення</label>
+        <textarea
+          class="contact-form-textarea"
+          id="message"
+          name="message"
+          maxlength="500"
+          rows="5"
+          placeholder="Введіть своє повідомлення..."
+        ></textarea>
+
+        <button class="btn-submit" type="submit">Надіслати</button>
+      </form>
+    </div>
+
+    <div class="workspace-preview">
+      <picture>
+        <source
+          srcset="
+            /img/contact/EcoTote-Form-desk.jpg    1x,
+            /img/contact/EcoTote-Form-desk@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            /img/contact/EcoTote-Form-tab.jpg    1x,
+            /img/contact/EcoTote-Form-tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/contact/EcoTote-Form-mob.jpg    1x,
+            /img/contact/EcoTote-Form-mob@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="/img/contact/EcoTote-Form-desk.jpg"
+          alt="EcoTote-Form"
+          width="288"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
