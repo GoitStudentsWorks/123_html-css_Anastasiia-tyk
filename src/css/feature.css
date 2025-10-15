@@ -1,0 +1,137 @@
+.carning {
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.4)
+    ),
+    url('../img/feature/feature-mob.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 348px;
+  padding: 16px 0 64px 0;
+  max-width: 320px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (min-resolution: 2x),
+  screen and (-webkit-min-device-pixel-ratio: 2) {
+  .carning {
+    background-image: url('/img/feature/feature-mob-2x.jpg');
+  }
+}
+
+.section__inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.carning_text_above {
+  margin-top: 48px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+.carning_title {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  font-family: 'Comfortaa', sans-serif;
+}
+.carning_text_below {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .carning {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.4)
+      ),
+      url('../img/feature/feature-tab.jpg');
+    max-width: 768px;
+    min-height: 325px;
+  }
+
+  @media screen and (min-resolution: 2x),
+    screen and (-webkit-min-device-pixel-ratio: 2) {
+    .carning {
+      background-image: url('/img/feature/feature-tab-2x.jpg');
+    }
+  }
+
+  .section__inner {
+    max-width: 768px;
+    padding-left: 97px;
+    padding-right: 97px;
+  }
+
+  .carning_text_above {
+    margin-top: 64px;
+  }
+
+  .carning_title {
+    margin-top: 16px;
+  }
+  .carning_text_below {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .carning {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.4)
+      ),
+      url('../img/feature/feature.jpg');
+    max-width: 1440px;
+    min-height: 462px;
+  }
+
+  @media screen and (min-resolution: 2x),
+    screen and (-webkit-min-device-pixel-ratio: 2) {
+    .carning {
+      background-image: url('/img/feature/feature-2x.jpg');
+    }
+  }
+
+  .section__inner {
+    padding-left: 97px;
+    padding-right: 97px;
+  }
+
+  .carning_text_above {
+    margin-top: 96px;
+    max-width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carning_title {
+    font-size: 56px;
+  }
+
+  .plannet {
+    display: block;
+    white-space: normal;
+  }
+}
